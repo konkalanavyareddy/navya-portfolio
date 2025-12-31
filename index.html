@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navya Sri Konkala | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="sidebar">
+        <div class="profile-container">
+            <img src="assets/profile.jpg" alt="Navya Sri Konkala" class="profile-img" onerror="this.style.display='none'">
+            <h1>Navya Sri Konkala</h1>
+            <p class="tagline">Mechanical Engineer | Quality Specialist</p>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#timeline">Experience & Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/navyasrikonkala/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:konkalni@mail.uc.edu"><i class="fas fa-envelope"></i></a>
+        </div>
+        
+        <a href="resume.pdf" target="_blank" class="btn-resume">Download Resume</a>
+    </header>
+
+    <main class="content">
+        
+        <section id="about" class="section fade-in">
+            <div class="section-header">
+                <h2>Professional Summary</h2>
+            </div>
+            <div class="about-card">
+                <p>Detail-oriented Mechanical Engineer with <strong>2 years of experience</strong> in quality engineering, process optimization, and energy management. Skilled in continuous improvement, auditing, and project management to enhance production efficiency. Proficient in <strong>3D modelling</strong> and experienced in utilizing core quality tools (FMEA, PPAP, APQP) to support robust quality assurance systems.</p>
+            </div>
+        </section>
+
+        <section id="timeline" class="section fade-in">
+            <div class="section-header">
+                <h2>Experience & Education</h2>
+            </div>
+            
+            
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="date">July 2025 - Present</span>
+                        <h3>Mechanical Engineer – Trainee</h3>
+                        <h4>Granules Consumer Health</h4>
+                        <button class="btn-toggle" onclick="toggleTimeline(this)">View Responsibilities <i class="fas fa-chevron-down"></i></button>
+                        <div class="timeline-details">
+                            <ul>
+                                <li>Manage RX and serialization processes for pharmaceutical products.</li>
+                                <li>Operate and perform preventive maintenance on high-speed packaging equipment.</li>
+                                <li>Utilize SAP for product transactions and inventory tracking.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item education">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="date">May 2025</span>
+                        <h3>Master of Engineering - Mechanical</h3>
+                        <h4>University of Cincinnati</h4>
+                        <button class="btn-toggle" onclick="toggleTimeline(this)">View Coursework <i class="fas fa-chevron-down"></i></button>
+                        <div class="timeline-details">
+                            <p><strong>Relevant Focus:</strong> Advanced Manufacturing, Quality Systems, Robotics, and Supply Chain Management.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="date">Dec 2024 - April 2025</span>
+                        <h3>Quality Engineering Co-op</h3>
+                        <h4>Bendix Commercial Vehicle Systems</h4>
+                        <button class="btn-toggle" onclick="toggleTimeline(this)">View Responsibilities <i class="fas fa-chevron-down"></i></button>
+                        <div class="timeline-details">
+                            <ul>
+                                <li>Applied 8D, FMEA, PPAP, APQP, and Lean Six Sigma methodologies.</li>
+                                <li>Participated in IATF 16949 audit for quality management systems.</li>
+                                <li>Developed CAD models for an Air Disc Brake prototype using Creo.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="date">June 2022 - July 2023</span>
+                        <h3>Assistant Manager</h3>
+                        <h4>JSW STEEL</h4>
+                        <button class="btn-toggle" onclick="toggleTimeline(this)">View Responsibilities <i class="fas fa-chevron-down"></i></button>
+                        <div class="timeline-details">
+                            <ul>
+                                <li>Optimized wastage of Blast Furnace Gas and electricity using Gas balancing sheets.</li>
+                                <li>Supervised day-to-day operations to meet quality expectations.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item education">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="date">May 2022</span>
+                        <h3>Bachelor of Technology - Mechanical</h3>
+                        <h4>PVP Siddhartha Institute of Technology</h4>
+                        <button class="btn-toggle" onclick="toggleTimeline(this)">View Coursework <i class="fas fa-chevron-down"></i></button>
+                        <div class="timeline-details">
+                            <p><strong>Core Subjects:</strong> Thermodynamics, Fluid Mechanics, Kinematics of Machinery, Heat Transfer, and CAD/CAM.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="date">Oct 2021 – Nov 2021</span>
+                        <h3>Design Intern</h3>
+                        <h4>Grupo Antolin</h4>
+                        <button class="btn-toggle" onclick="toggleTimeline(this)">View Responsibilities <i class="fas fa-chevron-down"></i></button>
+                        <div class="timeline-details">
+                            <ul>
+                                <li>Designed Pillar trims for 4-wheeler new product design processes.</li>
+                                <li>Analyzed design problems and collaborated with the engineering team for solutions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects" class="section fade-in">
+            <div class="section-header">
+                <h2>Key Projects</h2>
+            </div>
+            <div class="grid-container">
+                
+                <div class="card project-card" 
+                     data-title="Waste Heat Recovery Boiler" 
+                     data-tech="Energy Management | Thermodynamics"
+                     data-desc="Focused on utilizing waste heat from kiln flue gases. We installed a Waste Heat Recovery Boiler (WHRB) which successfully replaced 25% of the primary fuel consumption, leading to significant cost savings.">
+                    <div class="card-icon"><i class="fas fa-fire-alt"></i></div>
+                    <h3>Waste Heat Recovery</h3>
+                    <p>Replaced 25% of primary fuel consumption by utilizing waste heat from kiln flue gases.</p>
+                    <button class="btn-details">Read More <i class="fas fa-arrow-right"></i></button>
+                </div>
+
+                <div class="card project-card"
+                     data-title="Pellet Gas Booster"
+                     data-tech="Fluid Dynamics | Process Optimization"
+                     data-desc="Enhanced the pressure of blast furnace gas supplied to the pellet plant. This allowed for the replacement of expensive furnace oil with gas for heating, achieving massive cost savings.">
+                    <div class="card-icon"><i class="fas fa-industry"></i></div>
+                    <h3>Pellet Gas Booster</h3>
+                    <p>Enhanced pressure of blast furnace gas to replace expensive furnace oil.</p>
+                    <button class="btn-details">Read More <i class="fas fa-arrow-right"></i></button>
+                </div>
+
+                <div class="card project-card"
+                     data-title="M50 Modulators Inspection"
+                     data-tech="Quality Control | X-Ray | Testing"
+                     data-desc="Conducted X-ray inspections and functional testing on M50 modulators to detect internal defects and validate performance against safety standards.">
+                    <div class="card-icon"><i class="fas fa-microscope"></i></div>
+                    <h3>M50 Modulators</h3>
+                    <p>X-ray inspection and functional testing to detect defects and validate performance.</p>
+                    <button class="btn-details">Read More <i class="fas fa-arrow-right"></i></button>
+                </div>
+
+                <div class="card project-card"
+                     data-title="Pillar Trim Design"
+                     data-tech="CAD | Product Design | Grupo Antolin"
+                     data-desc="Designed vehicle Pillar trims as part of the new product design process for 4-wheelers. Communicated with the team to develop robust solutions using CAD tools.">
+                    <div class="card-icon"><i class="fas fa-pencil-ruler"></i></div>
+                    <h3>Pillar Trim Design</h3>
+                    <p>Designed vehicle Pillar trims as part of the new product design process.</p>
+                    <button class="btn-details">Read More <i class="fas fa-arrow-right"></i></button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills" class="section fade-in">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="skills-wrapper">
+                <span class="skill-tag"><i class="fas fa-cube"></i> Catia</span>
+                <span class="skill-tag"><i class="fas fa-cube"></i> Creo</span>
+                <span class="skill-tag"><i class="fas fa-cube"></i> SolidWorks</span>
+                <span class="skill-tag"><i class="fas fa-drafting-compass"></i> AutoCAD</span>
+                <span class="skill-tag"><i class="fas fa-calculator"></i> ANSYS</span>
+                <span class="skill-tag"><i class="fas fa-code"></i> MATLAB/Python</span>
+                <span class="skill-tag"><i class="fas fa-tasks"></i> SAP</span>
+                <span class="skill-tag"><i class="fas fa-clipboard-check"></i> FMEA/PPAP/APQP</span>
+                <span class="skill-tag"><i class="fas fa-certificate"></i> ISO/IATF</span>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Navya Sri Konkala</p>
+        </footer>
+    </main>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-tech" class="tech-stack"></p>
+            <div class="modal-body-text">
+                <p id="modal-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
